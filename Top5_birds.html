@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_06873d79575c466489e810cf5edc2336 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_06873d79575c466489e810cf5edc2336" ></div>
+        
+</body>
+<script>    
+    
+            var map_06873d79575c466489e810cf5edc2336 = L.map(
+                "map_06873d79575c466489e810cf5edc2336",
+                {
+                    center: [43.0, -73.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b3415520e5be4297a2297c2b9c643f3a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_06873d79575c466489e810cf5edc2336);
+        
+    
+            var marker_daade0e1d0354ee4bdd7ad6db5b8ce38 = L.marker(
+                [44.21533, -73.86176],
+                {}
+            ).addTo(map_06873d79575c466489e810cf5edc2336);
+        
+    
+            var icon_b06e37aa1d0248ff9a2217c231dc03e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_daade0e1d0354ee4bdd7ad6db5b8ce38.setIcon(icon_b06e37aa1d0248ff9a2217c231dc03e1);
+        
+    
+        var popup_0cb1690873dc4627be2bb104706b09fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ec7ed1814dd471ba462034453210f49 = $(`<div id="html_5ec7ed1814dd471ba462034453210f49" style="width: 100.0%; height: 100.0%;">White-throated Sparrow</div>`)[0];
+            popup_0cb1690873dc4627be2bb104706b09fb.setContent(html_5ec7ed1814dd471ba462034453210f49);
+        
+
+        marker_daade0e1d0354ee4bdd7ad6db5b8ce38.bindPopup(popup_0cb1690873dc4627be2bb104706b09fb)
+        ;
+
+        
+    
+    
+            var marker_9a75725380914b8a81b011dde6c3658c = L.marker(
+                [44.53327, -72.8165],
+                {}
+            ).addTo(map_06873d79575c466489e810cf5edc2336);
+        
+    
+            var icon_7b1cfc30fc544758a05744a3435cf8b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9a75725380914b8a81b011dde6c3658c.setIcon(icon_7b1cfc30fc544758a05744a3435cf8b4);
+        
+    
+        var popup_7ac7ba60e928464aace146f67caac78b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f0c622c963d48f886af9f37582fe6c2 = $(`<div id="html_0f0c622c963d48f886af9f37582fe6c2" style="width: 100.0%; height: 100.0%;">White-throated Sparrow</div>`)[0];
+            popup_7ac7ba60e928464aace146f67caac78b.setContent(html_0f0c622c963d48f886af9f37582fe6c2);
+        
+
+        marker_9a75725380914b8a81b011dde6c3658c.bindPopup(popup_7ac7ba60e928464aace146f67caac78b)
+        ;
+
+        
+    
+    
+            var marker_99de3f1a469a4c48b127eab1a8bbbae3 = L.marker(
+                [44.21435, -73.86008],
+                {}
+            ).addTo(map_06873d79575c466489e810cf5edc2336);
+        
+    
+            var icon_a6f92a0cb32c43fabb80ef7ff72c2f39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_99de3f1a469a4c48b127eab1a8bbbae3.setIcon(icon_a6f92a0cb32c43fabb80ef7ff72c2f39);
+        
+    
+        var popup_6285d0ce4ab646389b621f885ee2813f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1950c2adfbf147ec9d575c1095e62451 = $(`<div id="html_1950c2adfbf147ec9d575c1095e62451" style="width: 100.0%; height: 100.0%;">White-throated Sparrow</div>`)[0];
+            popup_6285d0ce4ab646389b621f885ee2813f.setContent(html_1950c2adfbf147ec9d575c1095e62451);
+        
+
+        marker_99de3f1a469a4c48b127eab1a8bbbae3.bindPopup(popup_6285d0ce4ab646389b621f885ee2813f)
+        ;
+
+        
+    
+    
+            var marker_65f8fb7c0a104184a708d3d1dfe9337b = L.marker(
+                [44.28822, -72.88516],
+                {}
+            ).addTo(map_06873d79575c466489e810cf5edc2336);
+        
+    
+            var icon_62922c3ab76a4b23820514c5b899cb2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_65f8fb7c0a104184a708d3d1dfe9337b.setIcon(icon_62922c3ab76a4b23820514c5b899cb2f);
+        
+    
+        var popup_8afe15dd30714e9fa1e545221e211810 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5eb77a98bc484d5c921e683327e13685 = $(`<div id="html_5eb77a98bc484d5c921e683327e13685" style="width: 100.0%; height: 100.0%;">Winter Wren</div>`)[0];
+            popup_8afe15dd30714e9fa1e545221e211810.setContent(html_5eb77a98bc484d5c921e683327e13685);
+        
+
+        marker_65f8fb7c0a104184a708d3d1dfe9337b.bindPopup(popup_8afe15dd30714e9fa1e545221e211810)
+        ;
+
+        
+    
+    
+            var marker_6ad26981d37542a69c8327b77d78a202 = L.marker(
+                [44.41676, -72.83028],
+                {}
+            ).addTo(map_06873d79575c466489e810cf5edc2336);
+        
+    
+            var icon_fcf32b6c05214db7abb79506a9e03c24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_6ad26981d37542a69c8327b77d78a202.setIcon(icon_fcf32b6c05214db7abb79506a9e03c24);
+        
+    
+        var popup_a1ee934e0d784dceb77e852f772d2405 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16b8a57c8a514b52af9ec6bf4498deb4 = $(`<div id="html_16b8a57c8a514b52af9ec6bf4498deb4" style="width: 100.0%; height: 100.0%;">Blackpoll Warbler</div>`)[0];
+            popup_a1ee934e0d784dceb77e852f772d2405.setContent(html_16b8a57c8a514b52af9ec6bf4498deb4);
+        
+
+        marker_6ad26981d37542a69c8327b77d78a202.bindPopup(popup_a1ee934e0d784dceb77e852f772d2405)
+        ;
+
+        
+    
+    
+            var marker_c65b1830962e47bfb482265a24fb505a = L.marker(
+                [42.9525, -72.9251],
+                {}
+            ).addTo(map_06873d79575c466489e810cf5edc2336);
+        
+    
+            var icon_d63b84b7fda449c9bc8a06a006e9b483 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_c65b1830962e47bfb482265a24fb505a.setIcon(icon_d63b84b7fda449c9bc8a06a006e9b483);
+        
+    
+        var popup_bc9bedf789184536827fa8546d4da632 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c2e3d3d148741ebbf015cbfecc450e7 = $(`<div id="html_9c2e3d3d148741ebbf015cbfecc450e7" style="width: 100.0%; height: 100.0%;">Blackpoll Warbler</div>`)[0];
+            popup_bc9bedf789184536827fa8546d4da632.setContent(html_9c2e3d3d148741ebbf015cbfecc450e7);
+        
+
+        marker_c65b1830962e47bfb482265a24fb505a.bindPopup(popup_bc9bedf789184536827fa8546d4da632)
+        ;
+
+        
+    
+    
+            var marker_2563e27214744b719081991c5d5eacf3 = L.marker(
+                [44.6013, -70.9085],
+                {}
+            ).addTo(map_06873d79575c466489e810cf5edc2336);
+        
+    
+            var icon_f495be85ca0343bea1863394c6933f63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_2563e27214744b719081991c5d5eacf3.setIcon(icon_f495be85ca0343bea1863394c6933f63);
+        
+    
+        var popup_287eca4eb7ed49d4b62a2378dc203da6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_408b45807a0d46879996adb9039a0611 = $(`<div id="html_408b45807a0d46879996adb9039a0611" style="width: 100.0%; height: 100.0%;">Swainson's Thrush</div>`)[0];
+            popup_287eca4eb7ed49d4b62a2378dc203da6.setContent(html_408b45807a0d46879996adb9039a0611);
+        
+
+        marker_2563e27214744b719081991c5d5eacf3.bindPopup(popup_287eca4eb7ed49d4b62a2378dc203da6)
+        ;
+
+        
+    
+    
+            var marker_cc2d9bdea4a1426891fc1d9a2dbc4720 = L.marker(
+                [43.87244, -74.40093],
+                {}
+            ).addTo(map_06873d79575c466489e810cf5edc2336);
+        
+    
+            var icon_5d13669cd35b4c7198da17c957fae132 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cc2d9bdea4a1426891fc1d9a2dbc4720.setIcon(icon_5d13669cd35b4c7198da17c957fae132);
+        
+    
+        var popup_956782e2d5724adb953749a62ba5ef26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_779c6efd6c0c4793980b74e57b38087f = $(`<div id="html_779c6efd6c0c4793980b74e57b38087f" style="width: 100.0%; height: 100.0%;">Bicknell's Thrush</div>`)[0];
+            popup_956782e2d5724adb953749a62ba5ef26.setContent(html_779c6efd6c0c4793980b74e57b38087f);
+        
+
+        marker_cc2d9bdea4a1426891fc1d9a2dbc4720.bindPopup(popup_956782e2d5724adb953749a62ba5ef26)
+        ;
+
+        
+    
+</script>

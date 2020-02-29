@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fd3ea13dc66e485baf736cf83adbd059 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fd3ea13dc66e485baf736cf83adbd059" ></div>
+        
+</body>
+<script>    
+    
+            var map_fd3ea13dc66e485baf736cf83adbd059 = L.map(
+                "map_fd3ea13dc66e485baf736cf83adbd059",
+                {
+                    center: [45.0, -71.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c7370b6949c54d31a56874863d6a6cfa = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fd3ea13dc66e485baf736cf83adbd059);
+        
+    
+            var marker_a634931c8d1e4cbc81922d2a88ff70d1 = L.marker(
+                [44.09081, -71.4406],
+                {}
+            ).addTo(map_fd3ea13dc66e485baf736cf83adbd059);
+        
+    
+            var icon_a451b11c267446c59d3e9a04ec98e07c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_a634931c8d1e4cbc81922d2a88ff70d1.setIcon(icon_a451b11c267446c59d3e9a04ec98e07c);
+        
+    
+        var popup_fa514e7524c04e8fba43af7b098e5ec5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe463eda30454364be670cf7887029ec = $(`<div id="html_fe463eda30454364be670cf7887029ec" style="width: 100.0%; height: 100.0%;">Red-tailed Hawk</div>`)[0];
+            popup_fa514e7524c04e8fba43af7b098e5ec5.setContent(html_fe463eda30454364be670cf7887029ec);
+        
+
+        marker_a634931c8d1e4cbc81922d2a88ff70d1.bindPopup(popup_fa514e7524c04e8fba43af7b098e5ec5)
+        ;
+
+        
+    
+    
+            var marker_2e3090e3c49b481a9dcdf894e7bec01e = L.marker(
+                [44.96796, -71.7396],
+                {}
+            ).addTo(map_fd3ea13dc66e485baf736cf83adbd059);
+        
+    
+            var icon_398bcdf6456442ca9f9cda2abf525ad3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e3090e3c49b481a9dcdf894e7bec01e.setIcon(icon_398bcdf6456442ca9f9cda2abf525ad3);
+        
+    
+        var popup_6a7406c219014d5388be334fc53b1154 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9896545298894989b83c5eb0a569068d = $(`<div id="html_9896545298894989b83c5eb0a569068d" style="width: 100.0%; height: 100.0%;">Peregrine Falcon</div>`)[0];
+            popup_6a7406c219014d5388be334fc53b1154.setContent(html_9896545298894989b83c5eb0a569068d);
+        
+
+        marker_2e3090e3c49b481a9dcdf894e7bec01e.bindPopup(popup_6a7406c219014d5388be334fc53b1154)
+        ;
+
+        
+    
+    
+            var marker_85dfea3b82d4400f87f6afc662968847 = L.marker(
+                [43.855, -72.97307],
+                {}
+            ).addTo(map_fd3ea13dc66e485baf736cf83adbd059);
+        
+    
+            var icon_a14c43047e8842eaa4ecac448fdf8ffa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_85dfea3b82d4400f87f6afc662968847.setIcon(icon_a14c43047e8842eaa4ecac448fdf8ffa);
+        
+    
+        var popup_a5bdcbdbf893448f9a55e7cee4f4cf52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f79396f17e6424d8c4b41b52a9f3800 = $(`<div id="html_4f79396f17e6424d8c4b41b52a9f3800" style="width: 100.0%; height: 100.0%;">Sharp-shinned Hawk</div>`)[0];
+            popup_a5bdcbdbf893448f9a55e7cee4f4cf52.setContent(html_4f79396f17e6424d8c4b41b52a9f3800);
+        
+
+        marker_85dfea3b82d4400f87f6afc662968847.bindPopup(popup_a5bdcbdbf893448f9a55e7cee4f4cf52)
+        ;
+
+        
+    
+    
+            var marker_16c0d9754f7e4cbc940e09f73a5b7de9 = L.marker(
+                [45.0, -71.8],
+                {}
+            ).addTo(map_fd3ea13dc66e485baf736cf83adbd059);
+        
+    
+            var icon_f562dc5497914a0788628511c22c8667 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_16c0d9754f7e4cbc940e09f73a5b7de9.setIcon(icon_f562dc5497914a0788628511c22c8667);
+        
+    
+        var popup_43d99c365f98456faee543aa1301b5a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffade05452d9429e90052e233d2008e7 = $(`<div id="html_ffade05452d9429e90052e233d2008e7" style="width: 100.0%; height: 100.0%;">Broad-winged Hawk</div>`)[0];
+            popup_43d99c365f98456faee543aa1301b5a1.setContent(html_ffade05452d9429e90052e233d2008e7);
+        
+
+        marker_16c0d9754f7e4cbc940e09f73a5b7de9.bindPopup(popup_43d99c365f98456faee543aa1301b5a1)
+        ;
+
+        
+    
+    
+            var marker_85b202520a7e4939b4bd3efb4f362ae6 = L.marker(
+                [44.1567, -73.9839],
+                {}
+            ).addTo(map_fd3ea13dc66e485baf736cf83adbd059);
+        
+    
+            var icon_b3ea165242564862857c230a94bc498d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_85b202520a7e4939b4bd3efb4f362ae6.setIcon(icon_b3ea165242564862857c230a94bc498d);
+        
+    
+        var popup_6944e56518d44b3c85727fe123d153f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ce279aed41a463fae6eec268949c9c8 = $(`<div id="html_4ce279aed41a463fae6eec268949c9c8" style="width: 100.0%; height: 100.0%;">Barred Owl</div>`)[0];
+            popup_6944e56518d44b3c85727fe123d153f4.setContent(html_4ce279aed41a463fae6eec268949c9c8);
+        
+
+        marker_85b202520a7e4939b4bd3efb4f362ae6.bindPopup(popup_6944e56518d44b3c85727fe123d153f4)
+        ;
+
+        
+    
+</script>

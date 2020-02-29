@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fa3165299cea42e395805ee5e1b4da3b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fa3165299cea42e395805ee5e1b4da3b" ></div>
+        
+</body>
+<script>    
+    
+            var map_fa3165299cea42e395805ee5e1b4da3b = L.map(
+                "map_fa3165299cea42e395805ee5e1b4da3b",
+                {
+                    center: [45.0, -69.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    titles: "Maine",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7ee3fc30834c49ad8ee25471077c3b7a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fa3165299cea42e395805ee5e1b4da3b);
+        
+    
+            var marker_12d9714698864da6911352e0dd3bd309 = L.marker(
+                [45.38046, -69.22999],
+                {}
+            ).addTo(map_fa3165299cea42e395805ee5e1b4da3b);
+        
+    
+            var icon_2e6ff5a5b4d24fbeafdba8848764ceba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_12d9714698864da6911352e0dd3bd309.setIcon(icon_2e6ff5a5b4d24fbeafdba8848764ceba);
+        
+    
+        var popup_e2697c96ffb74946b767168f417b2f2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a9c9fc6fa4b418982f8a18d1347f06e = $(`<div id="html_3a9c9fc6fa4b418982f8a18d1347f06e" style="width: 100.0%; height: 100.0%;">Maine</div>`)[0];
+            popup_e2697c96ffb74946b767168f417b2f2a.setContent(html_3a9c9fc6fa4b418982f8a18d1347f06e);
+        
+
+        marker_12d9714698864da6911352e0dd3bd309.bindPopup(popup_e2697c96ffb74946b767168f417b2f2a)
+        ;
+
+        
+    
+    
+            var marker_ff4ecf93da8c4c6aa67b8e6904195fd2 = L.marker(
+                [43.68556, -71.57754],
+                {}
+            ).addTo(map_fa3165299cea42e395805ee5e1b4da3b);
+        
+    
+            var icon_8db0cc5921114767a4f98f9f130e5a26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ff4ecf93da8c4c6aa67b8e6904195fd2.setIcon(icon_8db0cc5921114767a4f98f9f130e5a26);
+        
+    
+        var popup_ba16c3208a8f4ce7b4e06d900770c0c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4119a158d24d4284be2d188bff2135a8 = $(`<div id="html_4119a158d24d4284be2d188bff2135a8" style="width: 100.0%; height: 100.0%;">New Hampshire</div>`)[0];
+            popup_ba16c3208a8f4ce7b4e06d900770c0c0.setContent(html_4119a158d24d4284be2d188bff2135a8);
+        
+
+        marker_ff4ecf93da8c4c6aa67b8e6904195fd2.bindPopup(popup_ba16c3208a8f4ce7b4e06d900770c0c0)
+        ;
+
+        
+    
+    
+            var marker_26935de3f24a4b42ab4ceebc4b5b67d1 = L.marker(
+                [42.25788, -71.81423],
+                {}
+            ).addTo(map_fa3165299cea42e395805ee5e1b4da3b);
+        
+    
+            var icon_4c4aa57fabfb4a0e974a4b2bd5a20ec4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_26935de3f24a4b42ab4ceebc4b5b67d1.setIcon(icon_4c4aa57fabfb4a0e974a4b2bd5a20ec4);
+        
+    
+        var popup_195dd22770a448e3a0970885579189da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_414f0dd158e54d4fbee79468a30ec77f = $(`<div id="html_414f0dd158e54d4fbee79468a30ec77f" style="width: 100.0%; height: 100.0%;">Massachusetts</div>`)[0];
+            popup_195dd22770a448e3a0970885579189da.setContent(html_414f0dd158e54d4fbee79468a30ec77f);
+        
+
+        marker_26935de3f24a4b42ab4ceebc4b5b67d1.bindPopup(popup_195dd22770a448e3a0970885579189da)
+        ;
+
+        
+    
+    
+            var marker_334bdbff1f614451b7e20de92b4eb0b3 = L.marker(
+                [44.07511, -72.66273],
+                {}
+            ).addTo(map_fa3165299cea42e395805ee5e1b4da3b);
+        
+    
+            var icon_bfef4be92a47432dbce5e64e425cac23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_334bdbff1f614451b7e20de92b4eb0b3.setIcon(icon_bfef4be92a47432dbce5e64e425cac23);
+        
+    
+        var popup_360d4245663449e59f3660bff115c364 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49e7e56fff2d43ab96438b8b8ddd6751 = $(`<div id="html_49e7e56fff2d43ab96438b8b8ddd6751" style="width: 100.0%; height: 100.0%;">Vermont</div>`)[0];
+            popup_360d4245663449e59f3660bff115c364.setContent(html_49e7e56fff2d43ab96438b8b8ddd6751);
+        
+
+        marker_334bdbff1f614451b7e20de92b4eb0b3.bindPopup(popup_360d4245663449e59f3660bff115c364)
+        ;
+
+        
+    
+    
+            var marker_02807fa6286b42d8b347b7080a917272 = L.marker(
+                [42.94796, -75.51491],
+                {}
+            ).addTo(map_fa3165299cea42e395805ee5e1b4da3b);
+        
+    
+            var icon_808da4712cac466fb6f8b96bf0556632 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_02807fa6286b42d8b347b7080a917272.setIcon(icon_808da4712cac466fb6f8b96bf0556632);
+        
+    
+        var popup_e82580101ac844a19bec4092453d4d9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4b2c35862d342db81140061d86f2045 = $(`<div id="html_a4b2c35862d342db81140061d86f2045" style="width: 100.0%; height: 100.0%;">New York</div>`)[0];
+            popup_e82580101ac844a19bec4092453d4d9e.setContent(html_a4b2c35862d342db81140061d86f2045);
+        
+
+        marker_02807fa6286b42d8b347b7080a917272.bindPopup(popup_e82580101ac844a19bec4092453d4d9e)
+        ;
+
+        
+    
+</script>
