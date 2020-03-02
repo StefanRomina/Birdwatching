@@ -6,6 +6,8 @@ Language : Python<br/>
 Tool/Environment : Jupyter Notebook<br/>
 Packages Used : pandas, numpy, matplotlib, seaborn, shapefile, folium, geopandas, plotly, iplot
 
+The whole project here: https://nbviewer.jupyter.org/github/StefanRomina/Birdwatching/blob/master/Birdwatching.ipynb
+
 **Motivation:**
 
 Birds are amazing animals and not many days go by in our lives where we don’t see at least a few of them flapping around. We are surrounded by these colorful, intelligent, vocal, flying creatures.
@@ -63,4 +65,3 @@ Red-tailed Hawk, Peregrine Falcon, Sharp-shinned Hawk, Broad-winged Hawk, Barred
 
 Besides birds American Red Squirrel was noticed 213 times and Eastern Gray Squirrel once.
 
-https://nbviewer.jupyter.org/github/StefanRomina/Birdwatching/blob/master/Birdwatching.ipynb
